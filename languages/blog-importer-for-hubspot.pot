@@ -1,0 +1,158 @@
+# Copyright (C) 2025 Priyank Sukhadiya
+# This file is distributed under the same license as the Blog Importer for HubSpot plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog Importer for HubSpot 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/blog-importer-for-hubspot\n"
+"Last-Translator: Priyank Sukhadiya <priyanksukhadiya2001@gmail.com>\n"
+"Language-Team: English <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-06T08:13:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: blog-importer-for-hubspot\n"
+
+#: admin/admin-functions.php:29
+msgid "Invalid HubSpot API Key format. Please check your API key."
+msgstr ""
+
+#: admin/admin-functions.php:60
+msgid "You do not have permission to run imports."
+msgstr ""
+
+#: admin/admin-functions.php:80
+msgid "HubSpot API Key is required. Please configure it in the settings."
+msgstr ""
+
+#: admin/admin-functions.php:94
+msgid "Manual import started"
+msgstr ""
+
+#: admin/admin-functions.php:107
+msgid "Import completed successfully! Imported %1$d new posts and updated %2$d existing posts."
+msgstr ""
+
+#: admin/admin-functions.php:134
+msgid "Import failed. Please check your API key and try again. Error: "
+msgstr ""
+
+#: admin/admin-functions.php:159
+msgid "Settings"
+msgstr ""
+
+#: admin/logs-page.php:16
+msgid "Import logs cleared successfully."
+msgstr ""
+
+#: admin/logs-page.php:110
+msgid "%d imported"
+msgstr ""
+
+#: admin/logs-page.php:115
+msgid "%d updated"
+msgstr ""
+
+#: admin/logs-page.php:135
+msgid "&laquo; Previous"
+msgstr ""
+
+#: admin/logs-page.php:136
+msgid "Next &raquo;"
+msgstr ""
+
+#: admin/settings-page.php:106
+msgid "Save Settings"
+msgstr ""
+
+#: admin/settings-page.php:182
+msgid "Security check failed."
+msgstr ""
+
+#: blog-importer-for-hubspot.php:44
+#: blog-importer-for-hubspot.php:45
+msgid "Blog Importer for HubSpot"
+msgstr ""
+
+#: blog-importer-for-hubspot.php:56
+#: blog-importer-for-hubspot.php:57
+msgid "Settings"
+msgstr ""
+
+#: blog-importer-for-hubspot.php:66
+#: blog-importer-for-hubspot.php:67
+msgid "Import Logs"
+msgstr ""
+
+#: includes/cron-handler.php:15
+msgid "Every Hour (HubSpot)"
+msgstr ""
+
+#: includes/cron-handler.php:21
+msgid "Twice Daily (HubSpot)"
+msgstr ""
+
+#: includes/cron-handler.php:27
+msgid "Weekly (HubSpot)"
+msgstr ""
+
+#: includes/cron-handler.php:40
+msgid "Automatic sync is disabled"
+msgstr ""
+
+#: includes/cron-handler.php:53
+msgid "HubSpot API Key is missing for scheduled import"
+msgstr ""
+
+#: includes/cron-handler.php:65
+msgid "Scheduled import started"
+msgstr ""
+
+#: includes/cron-handler.php:78
+msgid "Scheduled import completed: %1$d imported, %2$d updated"
+msgstr ""
+
+#: includes/cron-handler.php:101
+msgid "Scheduled import failed with exception: %s"
+msgstr ""
+
+#: includes/helper-functions.php:90
+msgid "API key is required."
+msgstr ""
+
+#: includes/helper-functions.php:107
+msgid "Connection failed: "
+msgstr ""
+
+#: includes/helper-functions.php:116
+msgid "API connection successful!"
+msgstr ""
+
+#: includes/helper-functions.php:121
+msgid "Invalid API key. Please check your HubSpot Private App Access Token."
+msgstr ""
+
+#: includes/helper-functions.php:130
+msgid "API Error: "
+msgstr ""
+
+#: includes/importer.php:33
+msgid "No blog posts found in HubSpot."
+msgstr ""
+
+#: includes/importer.php:68
+msgid "Import completed with %d errors"
+msgstr ""
+
+#: includes/importer.php:76
+msgid "Successfully imported %1$d posts and updated %2$d posts"
+msgstr ""
+
+#: includes/importer.php:129
+msgid "Failed to connect to HubSpot API: "
+msgstr ""
+
+#: includes/importer.php:137
+msgid "HubSpot API Error: "
+msgstr ""

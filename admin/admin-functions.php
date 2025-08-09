@@ -5,7 +5,7 @@ if (!defined('ABSPATH')) exit;
 function bifh_enqueue_admin_styles() {
     wp_enqueue_style(
         'bifh-admin-styles',
-        plugin_dir_url(__FILE__) . '../assets/css/admin-styles.css',
+        plugin_dir_url(__FILE__) . '/css/blog-importer-for-hubspot-admin.css',
         array(),
         '1.0.0'
     );

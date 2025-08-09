@@ -1,7 +1,7 @@
 === Blog Importer for HubSpot ===
 Contributors: priyanksukhadiya 
 Donate link: https://paypal.me/PriyankSukhadiya
-Tags: hubspot, blog, import, content, api
+Tags: hubspot,  blog, import, content, api
 Plugin Name: Blog Importer for HubSpot
 Plugin URI: https://wordpress.org/plugins/blog-importer-for-hubspot/  
 Description: Seamlessly import and manage HubSpot blog posts in WordPress.
@@ -22,6 +22,23 @@ Import and sync blog posts from HubSpot to your WordPress site with automated sc
 == Description ==
 
 Blog Importer for HubSpot is a powerful WordPress plugin that seamlessly integrates your HubSpot blog content with your WordPress website. Import individual posts or set up automated synchronization to keep your content up-to-date.
+
+**Third-Party Service Usage:**
+
+This plugin connects to HubSpot's external API service to import blog content. Here are the important details:
+
+* **Service Used:** HubSpot CMS API (https://api.hubapi.com)
+* **Purpose:** To fetch and import blog posts from your HubSpot account to WordPress
+* **Data Sent:** Your HubSpot Private App Access Token (API key) for authentication
+* **Data Received:** Blog post content, metadata, images, and publishing information
+* **When:** Only when you manually trigger an import or have scheduled automatic imports enabled
+* **User Control:** All API connections require your explicit configuration of API credentials
+
+**Privacy & Terms:**
+* HubSpot Privacy Policy: https://legal.hubspot.com/privacy-policy
+* HubSpot Terms of Service: https://legal.hubspot.com/terms-of-service
+* This plugin does NOT track users or collect any personal data from your website visitors
+* Only administrators with proper permissions can configure and use this plugin
 
 **Key Features:**
 
