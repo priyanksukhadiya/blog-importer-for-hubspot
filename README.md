@@ -1,6 +1,8 @@
-# Blog Importer for HubSpot
+# Blog Importer for HubSpot – HubSpot Blog Importer Plugin for WordPress
 
-A comprehensive WordPress plugin that seamlessly imports and manages HubSpot blog posts in WordPress with automatic synchronization capabilities.
+A comprehensive **HubSpot blog importer plugin** for WordPress that seamlessly imports, migrates, and manages **HubSpot blog posts** in WordPress with **automatic synchronization** capabilities.
+
+Ideal for anyone looking to **migrate HubSpot blogs to WordPress**, this plugin ensures your content is transferred quickly, cleanly, and without errors.
 
 ## Features
 
@@ -12,6 +14,8 @@ A comprehensive WordPress plugin that seamlessly imports and manages HubSpot blo
 - **Content Preservation**: Maintains original publish dates, featured images, and metadata
 - **Duplicate Prevention**: Automatically detects and updates existing posts
 - **Clean Content**: Removes HubSpot-specific CSS and formatting for clean WordPress integration
+- **HubSpot to WordPress Migration**: Quickly transfer your blogs without manual copy-paste
+- **SEO-Friendly Imports**: Preserve URLs and meta data for better rankings
 
 ## Installation
 
@@ -45,13 +49,13 @@ A comprehensive WordPress plugin that seamlessly imports and manages HubSpot blo
 
 1. Configure your HubSpot API Key in the settings
 2. Choose your import preferences
-3. Click "Run Import Now" to import all published blog posts from HubSpot
+3. Click "Run Import Now" to **import all published HubSpot blog posts into WordPress**
 
 ### Automatic Sync
 
 1. Enable "Enable Sync (WP-Cron)" in the settings
 2. Choose your preferred sync interval
-3. The plugin will automatically check for new and updated posts based on your schedule
+3. The plugin will automatically check for new and updated HubSpot posts based on your schedule
 
 ### Import Statistics
 
@@ -64,47 +68,13 @@ The plugin provides detailed statistics including:
 
 ## Technical Details
 
-### File Structure
-
-```
-blog-importer-for-hubspot/
-├── blog-importer-for-hubspot.php    # Main plugin file
-├── uninstall.php                # Cleanup on uninstall
-├── README.md                    # This file
-├── admin/
-│   ├── admin-functions.php      # Admin functionality
-│   ├── settings-page.php        # Settings page UI
-│   └── logs-page.php            # Logs page UI
-├── assets/
-│   ├── css/
-│   └────admin-styles.css         # Admin styles
-├── includes/
-│   ├── auth-handler.php         # Authentication handler
-│   ├── importer.php             # Core import functionality
-│   ├── cron-handler.php         # WordPress Cron management
-│   └── helper-functions.php     # Utility functions
-├── languages/
-│   └── blog-importer-for-hubspot.pot # Translation file
-```
-
-### Database Storage
-
-The plugin stores the following data:
-- Plugin settings in WordPress options table
-- HubSpot post ID in post meta (`_hubspot_post_id`)
-- Original HubSpot URL, dates, and author information
-- Import timestamps for tracking
-
-### API Integration
-
-- Uses HubSpot CMS API v3 for blog post retrieval
-- Handles pagination for large blog collections
+- Works with **HubSpot CMS API v3** for blog retrieval
+- Handles pagination for large collections
 - Includes proper error handling and logging
 - Respects API rate limits
+- Built for **HubSpot to WordPress migration** without losing important content details
 
 ## Troubleshooting
-
-### Common Issues
 
 **Import fails with "Invalid API Key"**
 - Verify your HubSpot Private App Access Token
@@ -121,43 +91,30 @@ The plugin stores the following data:
 - Check if any caching plugins are interfering
 - Consider using a real cron job instead of WordPress Cron for better reliability
 
-### Debug Information
-
-Enable WordPress debug logging by adding these lines to your `wp-config.php`:
-
-```php
-define('WP_DEBUG', true);
-define('WP_DEBUG_LOG', true);
-```
-
-The plugin logs detailed information about imports and errors to the WordPress debug log.
-
 ## Security
 
-- All API keys are stored securely in the WordPress database
-- Input sanitization and validation on all user inputs
-- Nonce verification for all admin actions
-- Capability checks to ensure only authorized users can import
+- Secure API key storage in WordPress database
+- Sanitization and validation for all user inputs
+- Nonce verification for admin actions
+- Capability checks for authorized access
 
 ## Uninstallation
 
 When you uninstall the plugin:
 - All plugin settings are removed
 - Scheduled cron jobs are cleared
-- Imported posts and their content remain intact (optional cleanup available)
-
-To completely remove imported content, uncomment the cleanup code in `uninstall.php`.
+- Imported posts remain (optional cleanup available)
 
 ## Requirements
 
-- WordPress 5.0 or higher
-- PHP 7.4 or higher
+- WordPress 5.0+
+- PHP 7.4+
 - Active HubSpot account with blog posts
-- HubSpot Private App with appropriate permissions
+- HubSpot Private App with `content` permissions
 
 ## Support
 
-For support and feature requests, please check the plugin documentation or contact the plugin author.
+Need help? Check the plugin documentation or contact the developer for **HubSpot blog migration support**.
 
 ## Changelog
 
